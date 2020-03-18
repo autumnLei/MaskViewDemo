@@ -16,7 +16,9 @@ import android.view.MotionEvent;
 import android.view.View;
 
 // https://blog.csdn.net/To_be_Designer/article/details/48553657
-//
+// 蒙层实现
+// https://www.jianshu.com/p/d11892bbe055
+// 透明画笔
 public class MaskView extends View {
     private static final String TAG = "MaskView";
     private int width;//设置高
